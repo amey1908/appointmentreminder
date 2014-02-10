@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95407ce3-f75c-4afc-a5ca-ff5df1be1f1e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/appointmentreminder/index.html.erb" afterPath="$PROJECT_DIR$/app/views/appointmentreminder/index.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/appointmentreminder/reminder.xml.builder" afterPath="$PROJECT_DIR$/app/views/appointmentreminder/reminder.xml.builder" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="appointmentreminder.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,7 +46,7 @@
       <file leaf-file-name="reminder.xml.builder" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/appointmentreminder/reminder.xml.builder">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="16" selection-start="148" selection-end="179" vertical-scroll-proportion="0.14150943" vertical-offset="0" max-vertical-offset="424">
+            <state line="4" column="222" selection-start="481" selection-end="481" vertical-scroll-proportion="0.1459854" vertical-offset="0" max-vertical-offset="411">
               <folding />
             </state>
           </provider>
@@ -661,7 +658,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/appointmentreminder/reminder.xml.builder">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="16" selection-start="148" selection-end="179" vertical-scroll-proportion="0.14150943" vertical-offset="0" max-vertical-offset="225">
+        <state line="4" column="222" selection-start="481" selection-end="481" vertical-scroll-proportion="0.1459854" vertical-offset="0" max-vertical-offset="411">
           <folding />
         </state>
       </provider>

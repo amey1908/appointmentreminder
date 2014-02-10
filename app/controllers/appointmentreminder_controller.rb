@@ -9,7 +9,7 @@ class AppointmentreminderController < ApplicationController
   ACCOUNT_TOKEN = 'd91c622c0ed9cbb3443c8775f6bb8611'
 
   # base URL of this application
-  BASE_URL = "http://localhost:3000/appointmentreminder"
+  BASE_URL = "http://http://warm-island-8592.herokuapp.com/appointmentreminder"
 
   # Outgoing Caller ID you have previously validated with Twilio
   CALLER_ID = '+15122702124'

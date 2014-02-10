@@ -1,4 +1,11 @@
 Appointmentreminder::Application.routes.draw do
+  match ':controller(/:action(.:format))', via: [:get, :post]
+  #get "appointmentreminder/index"
+
+  #match "appointmentreminder/makecall", to: 'appointmentreminder#makecall', via: [:get, :post]
+  #match "appointmentreminder/reminder", to: 'appointmentreminder#reminder', via: [:get, :post]
+  #match "appointmentreminder/directions", to: 'appointmentreminder#directions', via: [:get, :post]
+  #match "appointmentreminder/goodbye", to: 'appointmentreminder#goodbye', via: [:get, :post]
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

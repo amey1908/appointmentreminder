@@ -1,7 +1,19 @@
-<h1>Twilio phone reminder demo</h1>
-<h2 style="color: #ff0000"><%= params['msg'] %></h2>
-<h3>Enter your phone number to receive an automated reminder</h3>
-<form action="/appointmentreminder/makecall" method="post">
-  <input type="text" name="number" />
-  <input type="submit" value="Call me!">
-</form>
+<div class="container">
+    <header class="navbar navbar-fixed-top navbar-inverse">
+      <div class="navbar-inner">
+        <div class="container">
+          <%= link_to "Know.me", "#", id: "logo" %>
+        </div>
+      </div>
+    </header>
+
+    <div class="center hero-unit">
+        <h3>Call to know more about Ameya Kulkarni</h3>
+        <h2>Enter your phone number to get details about Ameya Kulkarni</h2>
+          <p style="color: #ff0000"><%= params['msg'] %></p>
+        <form action="/appointmentreminder/makecall" method="post">
+          <input type="text" name="number" /><br/>
+          <input type="submit" class="btn btn-large btn-primary" value="Call me!">
+        </form>
+    </div>
+</div>
